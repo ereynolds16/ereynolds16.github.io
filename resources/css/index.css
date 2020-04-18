@@ -40,6 +40,10 @@ hr {
     font-family: 'Loved by the King', cursive;
 }
 
+.intro-scroll img {
+    margin-bottom: 200px;
+}
+
 .section-break {
     display: block;
     margin-left: auto;
