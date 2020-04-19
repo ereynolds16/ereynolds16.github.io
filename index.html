@@ -81,12 +81,15 @@
 
 
 <video controls class="video" id="lydia-video">
-    <source src="resources/videos/Lyd_vid.mov#t=0.1"
-    >
+    <source src="resources/videos/Lyd_vid.mov#t=0.1">
+    <!-- The #t=0.1 makes sure the thumbnail of the video is the first frame, otherwise on some
+    mobile browsers the thumbnail does not show up. -->
 </video>
 <video controls class="video" id="jay-video">
     <source src="resources/videos/jay_vid.MOV#t=0.1"
     >
+    <!-- The #t=0.1 makes sure the thumbnail of the video is the first frame, otherwise on some
+    mobile browsers the thumbnail does not show up. -->
 </video>
 
 
@@ -111,8 +114,10 @@
 <p class="section-break">...But don't take my word for it!</p>
 
 <video controls class="video">
-    <source src="resources/videos/Scott Porter.mp4"
+    <source src="resources/videos/Scott Porter.mp4#t=0.1"
     type="video/mp4">
+    <!-- The #t=0.1 makes sure the thumbnail of the video is the first frame, otherwise on some
+    mobile browsers the thumbnail does not show up. -->
 </video>
 
 </HTML>
