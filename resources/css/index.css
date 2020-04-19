@@ -6,6 +6,8 @@ html {
     align-items: flex-start;*/
 }
 
+
+
 .bg {
     background-image: url(../images/lowcountry_harbor.jpg);
     height: 100%;
@@ -15,7 +17,7 @@ html {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3rem;
     font-family: 'Rouge Script', cursive;
     text-align: center;
     background-image: url(../images/white_lace.jpg);
@@ -119,4 +121,33 @@ figcaption {
     margin-right: auto;
     height: auto;
     width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 12px;
+    }
+    .intro {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .image {
+        width: 80%;
+    }
+    .section-break {
+        width: 40%;
+        font-size: 1.5rem;
+    }
+    figcaption{
+        width: 80%;
+    }
+    #Antarctica {
+        width: 60%;
+    }
+    .video {
+        width: 60%;
+    }
+
 }
