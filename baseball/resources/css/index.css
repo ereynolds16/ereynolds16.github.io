@@ -1,4 +1,215 @@
-h1 {
-    font-size: 3rem;
+html {
+    height: 100%;
+    margin: 0;
+    /*display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;*/
+}
+
+.bg{
+    /*background-color: black;*/
+}
+
+header h1{
     text-align: center;
+    background-color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 30%;
+    font-size: 3rem;
+    width: 100%;
+    font-family: 'Graduate', cursive;
+}
+
+.container {
+    position: relative;
+}
+.container button {
+    position: absolute;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    z-index: 10;
+    font-weight: bold;
+    
+}
+
+
+
+.container .image {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    z-index: -10;
+}
+
+.visited {
+    background-color: lightblue;
+    color: black;
+}
+
+.unvisited {
+    background-color: red;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: grey;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+#washington {
+    position: absolute;
+    top: 42%;
+    left: 86%;
+}
+#pittsburgh {
+    position: absolute;
+    top: 38%;
+    left: 80.5%;
+}
+#cleveland {
+    position: absolute;
+    top: 35%;
+    left: 77%;
+}
+#detroit {
+    position: absolute;
+    top: 33%;
+    left: 74%;
+}
+#chicagocubs {
+    position: absolute;
+    top: 33.8%;
+    left: 66.5%;
+}
+#stlouis {
+    position: absolute;
+    top: 48%;
+    left: 62.5%;
+}
+#kansascity {
+    position: absolute;
+    top: 47%;
+    left: 54.5%;
+}
+#minnesota {
+    position: absolute;
+    top: 25%;
+    left: 57%;
+}
+#toronto {
+    position: absolute;
+    top: 26%;
+    left: 80%;
+}
+#boston {
+    position: absolute;
+    top: 25%;
+    left: 94.5%;
+}
+#philadelphia {
+    position: absolute;
+    top: 37%;
+    left: 88%;
+}
+#baltimore {
+    position: absolute;
+    top: 40.5%;
+    left: 87%;
+}
+#miami {
+    position: absolute;
+    top: 93%;
+    left: 85.5%;
+}
+#tampa {
+    position: absolute;
+    top: 87.2%;
+    left: 79.5%;
+}
+#atlanta {
+    position: absolute;
+    top: 64%;
+    left: 74.5%;
+}
+#denver {
+    position: absolute;
+    top: 43%;
+    left: 36%;
+}
+#houston {
+    position: absolute;
+    top: 82.5%;
+    left: 54%;
+}
+#arlington {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+}
+#phoenix {
+    position: absolute;
+    top: 63.5%;
+    left: 21.5%;
+}
+#sandiego {
+    position: absolute;
+    top: 63.5%;
+    left: 11.5%;
+}
+#losangeles {
+    position: absolute;
+    top: 58.1%;
+    left: 9.8%;
+}
+#anaheim {
+    position: absolute;
+    top: 59%;
+    left: 10.2%;
+}
+#yankees {
+    position: absolute;
+    top: 32.4%;
+    left: 90.4%;
+}
+#seattle {
+    position: absolute;
+    top: 4.4%;
+    left: 11.3%;
+}
+#oakland {
+    position: absolute;
+    top: 41.4%;
+    left: 5.7%;
+}
+#sanfrancisco {
+    position: absolute;
+    top: 41%;
+    left: 4.8%;
+}
+#cincinnati {
+    position: absolute;
+    top: 44.5%;
+    left: 73%;
+}
+#chicagosox {
+    position: absolute;
+    top: 35%;
+    left: 66.5%;
+}
+#milwaukee {
+    position: absolute;
+    top: 30.8%;
+    left: 66.2%;
+}
+#mets {
+    position: absolute;
+    top: 33.2%;
+    left: 91.2%;
 }
