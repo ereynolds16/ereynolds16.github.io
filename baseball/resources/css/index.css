@@ -28,8 +28,9 @@ header h1{
     position: absolute;
     font-size: 0.8rem;
     border-radius: 50%;
-    z-index: 10;
+    z-index: 1;
     font-weight: bold;
+    cursor: pointer;
     
 }
 
@@ -55,6 +56,53 @@ header h1{
     color: black;
 }
 
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    padding-top: 100px;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 80%;
+    /*overflow: auto;*/
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+.modal-content h1 {
+    font-family: 'Graduate', cursive;
+}
+
+.modal-content img {
+    width: 95%;
+}
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 footer {
     width: 100%;
     background-color: grey;
@@ -65,8 +113,8 @@ footer {
 
 #washington {
     position: absolute;
-    top: 42%;
-    left: 86%;
+    top: 42.3%;
+    left: 85.5%;
 }
 #pittsburgh {
     position: absolute;
@@ -165,18 +213,18 @@ footer {
 }
 #losangeles {
     position: absolute;
-    top: 58.1%;
-    left: 9.8%;
+    top: 57.5%;
+    left: 9.2%;
 }
 #anaheim {
     position: absolute;
-    top: 59%;
+    top: 59.7%;
     left: 10.2%;
 }
 #yankees {
     position: absolute;
-    top: 32.4%;
-    left: 90.4%;
+    top: 31.2%;
+    left: 90%;
 }
 #seattle {
     position: absolute;
@@ -186,12 +234,12 @@ footer {
 #oakland {
     position: absolute;
     top: 41.4%;
-    left: 5.7%;
+    left: 6%;
 }
 #sanfrancisco {
     position: absolute;
     top: 41%;
-    left: 4.8%;
+    left: 3.3%;
 }
 #cincinnati {
     position: absolute;
@@ -200,7 +248,7 @@ footer {
 }
 #chicagosox {
     position: absolute;
-    top: 35%;
+    top: 36%;
     left: 66.5%;
 }
 #milwaukee {
@@ -210,6 +258,6 @@ footer {
 }
 #mets {
     position: absolute;
-    top: 33.2%;
-    left: 91.2%;
+    top: 33%;
+    left: 91.5%;
 }
