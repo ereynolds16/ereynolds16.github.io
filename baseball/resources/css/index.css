@@ -85,6 +85,8 @@ header h1{
 
 .modal-content img {
     width: 95%;
+    padding-bottom: 10px;
+    height: auto;
 }
 
 
