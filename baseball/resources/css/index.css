@@ -6,9 +6,9 @@ html {
     align-items: flex-start;*/
 }
 
-.bg{
-    /*background-color: black;*/
-}
+/*.bg{
+    background-color: black;
+}*/
 
 header h1{
     text-align: center;
@@ -71,7 +71,7 @@ header h1{
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #e6e6e6;
     margin: auto;
     padding: 0px;
     border: 1px solid #888;
@@ -89,6 +89,11 @@ header h1{
     height: auto;
 }
 
+.modal-content .logo {
+    float:left;
+    height: auto;
+    width: auto;
+}
 
 .close {
     color: #aaaaaa;
@@ -104,6 +109,10 @@ header h1{
     cursor: pointer;
 }
 
+#washington_modal_content {
+    color: #cd1041;
+    
+}
 
 footer {
     width: 100%;
@@ -415,3 +424,4 @@ footer {
         top: 30%;
         left: 93%;
     }
+}
