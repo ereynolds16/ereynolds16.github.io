@@ -46,6 +46,18 @@ header h1{
     border-style: solid;*/
 }
 
+.text h1 {
+    font-size: 1.75rem;
+    text-align: left;
+    margin: 5px;
+
+}
+
+.text h2 {
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
 .numbertext {
     font-size: 1.25rem;
     font-weight: bold;
