@@ -108,3 +108,48 @@ footer {
     header h1 {
         font-size: 1.5rem;
     }
+
+    #prev, #next {
+        width: auto;
+        margin-top: -22px;
+        margin: 0px;
+        font-size: 0.75rem;
+        padding: 2px;
+      }
+
+      .mySlides .text {
+        width: 40%;
+        overflow: auto;
+        font-size: 0.85rem;
+        padding: 5px;
+        margin: 5px;
+        /*display: block;*/
+    }
+    
+    .text h1 {
+        font-size: 1rem;
+        margin: 2px;
+    
+    }
+    
+    .text h2 {
+        font-size: .8rem;
+        margin: 2px;
+    }
+
+    .text p{
+        margin: 2px;
+
+    }
+
+    .mySlides img {
+        width: 35%;
+        /*display: block;*/
+    }
+
+    .numbertext {
+        font-size: .75rem;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
