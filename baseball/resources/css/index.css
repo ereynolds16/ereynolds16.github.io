@@ -84,9 +84,9 @@ header h1{
 }
 
 .modal-content img {
-    width: 95%;
+    width: auto;
     padding-bottom: 10px;
-    height: auto;
+    height: 650px;
 }
 
 .modal-content .logo {
@@ -278,6 +278,12 @@ footer {
         font-size: 1.5rem;
     }
     
+    .modal-content img {
+        width: auto;
+        padding-bottom: 10px;
+        height: 180px;
+    }
+
     #washington {
         position: absolute;
         top: 42%;
