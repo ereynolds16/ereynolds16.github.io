@@ -30,9 +30,14 @@ header h1{
     border-width: 2px;
     border-color: gray;
     border-style: solid;
-    padding: 20px;
+    padding: 10px;
     font-style: italic;
     margin: 10px;
+}
+
+.mySlides p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .mySlides img {

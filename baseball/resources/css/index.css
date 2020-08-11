@@ -84,9 +84,8 @@ header h1{
 }
 
 .modal-content img {
-    width: auto;
+    width: 95%;
     padding-bottom: 10px;
-    height: 650px;
 }
 
 .modal-content .logo {
@@ -107,11 +106,6 @@ header h1{
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-
-#washington_modal_content {
-    color: #cd1041;
-    
 }
 
 footer {
