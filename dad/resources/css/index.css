@@ -1,0 +1,95 @@
+header h1{
+    text-align: center;
+    background-color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 30%;
+    font-size: 3rem;
+    width: 100%;
+    font-family: 'Times';
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.subtitle h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.subtitle h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: grey;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #prev, #next {
+        width: auto;
+        margin-top: -22px;
+        margin: 0px;
+        font-size: 0.75rem;
+        padding: 2px;
+      }
+
+    .mySlides .text {
+    display: block;
+    margin: auto;
+    overflow: auto;
+    font-size: 0.85rem;
+    padding: 5px;
+    width: 70%;
+    }
+
+    .mySlides img {
+        display: block;
+        margin: auto;
+        width: 50%;
+        padding-bottom: 15px;
+    }
+    
+    .text h1 {
+        font-size: 1rem;
+        margin: 2px;
+    
+    }
+    
+    .text h2 {
+        font-size: .8rem;
+        margin: 2px;
+    }
+
+    .text p{
+        margin: 2px;
+
+    }
+
+    .numbertext {
+        font-size: .75rem;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
